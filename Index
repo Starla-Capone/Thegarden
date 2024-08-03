@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Grimoire d'Herboriste</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f1e6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #6b8e23;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            border-bottom: 3px solid #4a5d23;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #6b8e23;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #4a5d23;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .agenda {
+            background: #e8f5e9;
+            padding: 10px;
+            border-left: 5px solid #4a5d23;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #6b8e23;
+            color: #fff;
+            border-top: 3px solid #4a5d23;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon Grimoire d'Herboriste</h1>
+        <nav>
+            <a href="#about">À Propos</a>
+            <a href="#herbier">Herbier des Symboles</a>
+            <a href="#gallery">Galerie de Projets</a>
+            <a href="#agenda">Agenda</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>À Propos</h2>
+            <p>Bienvenue dans mon univers où je combine ma passion pour le tatouage, la bijouterie, l'art et l'herboristerie. Explorez mes créations artistiques et découvrez mon projet unique d'herbier.</p>
+        </section>
+
+        <section id="herbier">
+            <h2>Herbier des Symboles et Empreintes de la Nature</h2>
+            <p>Depuis des temps immémoriaux, les plantes ont fasciné l'humanité non seulement par leurs vertus médicinales mais aussi par les symboles qu'elles incarnent. Découvrez cet herbier où chaque plante raconte une histoire, entre médecine traditionnelle et art contemporain.</p>
+            <p>Au fil de mes cueillettes, j'ai rassemblé des plantes de divers environnements. Chaque entrée est une invitation à explorer les bienfaits des plantes et leur signification symbolique.</p>
+            <p>En parallèle, j'ai réalisé des impressions artistiques uniques avec de l'encre de Chine, utilisant les plantes comme pinceaux. Ces œuvres abstraites capturent l'essence de la nature de manière inédite.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Galerie de Projets</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Projet 1">
+                <img src="image2.jpg" alt="Projet 2">
+                <img src="image3.jpg" alt="Projet 3">
+                <!-- Ajoute ici d'autres images de tes projets -->
+            </div>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <div class="agenda">
+                <p>Consultez les événements à venir, ateliers, et expositions. (À mettre à jour régulièrement)</p>
+                <!-- Exemple d'événements -->
+                <ul>
+                    <li>Atelier d'Herboristerie - 15 septembre 2024</li>
+                    <li>Exposition d'Art Botanique - 30 septembre 2024</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour toute demande ou prise de contact, n'hésitez pas à me joindre via les coordonnées suivantes :</p>
+            <p>Email: contact@example.com</p>
+            <p>Téléphone: +33 1 23 45 67 89</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mon Grimoire d'Herboriste. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
